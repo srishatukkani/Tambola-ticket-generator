@@ -120,7 +120,7 @@ def generate_tambola_ticket_set():
             print(row)
         print("  ")
 
-    print("-------------------------")
+    print("-------------")
                 
     for ticket in final_tickets:
         if TambolaTicket.select().where(
