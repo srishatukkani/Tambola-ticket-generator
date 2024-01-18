@@ -1,7 +1,6 @@
 import random
 from tambola_ticket import TambolaTicket
 import datetime
-import uuid
 
 def get_unique_set_id():
     timestamp = datetime.datetime.now().strftime("%Y%m%d%H%M%S%f")
